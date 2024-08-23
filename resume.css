@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(0, 41, 63);
     text-align: center;
     color: rgb(255,255,255);
@@ -8,7 +10,17 @@ section ul a {
     color: rgb(60, 136, 255);
 }
 
-section ul li {
-    text-align: center;
+h1 {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px, 0;
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: rgb(60, 136, 225);
 }
 
