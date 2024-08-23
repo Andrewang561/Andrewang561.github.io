@@ -1,3 +1,14 @@
-p {
-    color: green;
+body {
+    background-color: rgb(0, 41, 63);
+    text-align: center;
+    color: rgb(255,255,255);
 }
+
+section ul a {
+    color: rgb(60, 136, 255);
+}
+
+section ul li {
+    text-align: center;
+}
+
