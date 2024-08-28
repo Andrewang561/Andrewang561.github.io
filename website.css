@@ -142,9 +142,9 @@
 #heart_disease_title {
     margin-top: 40px;
     margin-bottom: 10px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    background-image: url("./Images/heart_line.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("./Images/heart.jpg");
     background-position: center;
     background-size: cover;
     color: rgb(255, 255, 255);
