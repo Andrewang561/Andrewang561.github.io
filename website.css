@@ -184,7 +184,7 @@ section a {
 #intro {
     width: 20%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-top: 12px;
     padding-bottom: 12px;
     color: rgb(225, 225, 225);
@@ -194,11 +194,45 @@ section a {
 .introduction {
     width: 70%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 25px;
 }
-  
 
+#education_title {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgb(225, 225, 225);
+    background-color: rgb(0, 0, 0);
+}
+
+.education {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+#work_title {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgb(225, 225, 225);
+    background-color: rgb(0, 0, 0);
+}
+
+.work_experience {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+  
 body {
     margin: 0;
     padding: 0;
