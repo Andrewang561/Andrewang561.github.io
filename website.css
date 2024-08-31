@@ -281,7 +281,15 @@ nav a:last-child {
     }
 
     #travel_title {
-        margin-top: 43px;
+        margin-top: 40px;
+    }
+
+    #workout__tracker_title {
+        margin-top: 40px;
+    }
+
+    #filler {
+        margin-top: 40px;
     }
 
     nav a {
