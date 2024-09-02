@@ -15,6 +15,7 @@
     </head>
 
     <body>
+
         <h1 class="header">
             <nav>
                 <a href="index.html">About</a>
@@ -23,33 +24,48 @@
             </nav>
         </h1>      
 
-            <h1 id="filler">Welcome</h1>
+        <h1 id="filler">Welcome</h1>
 
-            <h1 id="intro">About Me</h1>
+        <h1 id="intro">About Me</h1>
 
-            <p class="introduction"> My name is Andrew Wang and I am currently a second year computer science student studying at the University of British Columbia. I was born
+        <p class="introduction"> My name is Andrew Wang and I am currently a second year computer science student studying at the University of British Columbia. I was born
                 in Richmond, British Columbia where I grew up alongside an older sister. I created this website as a demonstration of my skills in web development and as an opportunity
                 to get to know me better. Throughout this online portfolio you will learn about my qualifications, experiences, and hobbies.
-            </p>
+        </p>
 
-            <h1 id="education_title">Education</h1>
+        <h1 id="education_title">Education</h1>
 
-            <p class="education">I went to a secondary school called Richmond Secondary School where I enrolled in the Internation Baccalaureate Diploma Programme to give myself an extra
+        <p class="education">I went to a secondary school called Richmond Secondary School where I enrolled in the Internation Baccalaureate Diploma Programme to give myself an extra
                 challenge and push myself to become a more knowledgeable person. I successfully survived the dreaded IB program and received a score of 39/45. I graduated with two 
                 diplomas, one from the provincial government and the other from IB, and maintained principle honour roll for all 5 years.
                 Currently, I am in my second year at UBC studying computer science. Through perserverance and determination, I survived my first year of university while
                 achieving a GPA of 4.3/4.33. However, my university story has just started and I can not wait to come back and update this website more and more with brand
                 new experiences as I continue my studies in computer science.
-            </p>
+        </p>
 
-            <h1 id="work_title">Work Experience</h1>
+        <h1 id="work_title">Work Experience</h1>
 
-            <p class="work_experience">My first job was as a math tutor for Cherrywood Learning Academy. My duties consisted of marking students homework, answering any questions they
+        <p class="work_experience">My first job was as a math tutor for Cherrywood Learning Academy. My duties consisted of marking students homework, answering any questions they
                 may have, and making sure they stay focused. Later on my boss chose me to help plan out a pre-calculus curriculum for high school students as she felt that I had
                 a deep understanding of what mathematical skills are required to succeed in highschool. I currently work at Success For All Canada as a STEM tutor. I prepared students
                 for Singapore's International Mastery Contest Centre CS0 - Computational Thinking and Problem Solving Contest in Python. This involved guiding students through the basics
                 of Python and solving multiple choice and coding questions similar to LeetCode. Since this was the first time this program was offered in Success For All Canada, I also had
                 to solve all of the practice problems as well and create an answer key for future use. I teach other STEM subjects as well including calculus, physics, and chemistry. 
-            </p>
+        </p>
+
+        <form>
+            <h1>Leave A Review!</h1>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="rating">Rating:</label><br>
+            <input type="number" id="rating" name="rating" min="1" max="5" required><br>
+
+            <label for="review">Review:</label><br>
+            <input type="text" id="review" name="review" required><br>
+
+            <button type="submit">Submit Review</button><br>
+        </form>
     </body>
 </html>
