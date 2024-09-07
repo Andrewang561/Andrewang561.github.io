@@ -58,14 +58,19 @@
         <h3 class="review_subtitle">Report any bugs or suggestions you may have</h3>
         </section>
 
-        <form class="feedback_form">
+        <form class="feedback_form" onsubmit="return displayRating()">
             <label for="rating" id="rating_label">Rating:</label><br>
             <input type="number" id="rating" name="rating" min="1" max="5" required><br>
 
             <label for="feedback" id="feedback_label">Feedback:</label><br>
             <input type="text" id="feedback" name="feedback" required><br>
 
-            <button type="submit">Submit Review</button><br>
+            <button type="submit" onclick="displayRating()">Submit Review</button><br>
         </form>
+
+        <script src="features.js"></script>
+
+        <p id="reviews"></p>
+
     </body>
 </html>
