@@ -1,68 +1,71 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>My Projects!</title>
+    <link href="./website.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+</head>
 
-    <head>
-        <title> My Projects!</title>
-        <link href="./website.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
-    </head>
+<body>
+    <h1 class="header">
+        <nav>
+            <a href="index.html">About</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./hobbies.html">Hobbies</a>
+        </nav>
+    </h1>
 
-    <body>
+    <h1 id="recall_safety_title">Recall Safety Canada</h1>
 
-        <h1 class="header">
-            <nav>
-                <a href="index.html">About</a>
-                <a href="./projects.html">Projects</a>
-                <a href="./hobbies.html">Hobbies</a>
-            </nav>
-        </h1>
+    <section class="recall_safety">
+        <h4><em>React Native, TypeScript, PostgreSQL, Python</em></h4>
+        <p>
+            Developed during StormHacks 2025, Recall Safety Canada is a mobile application that helps users stay informed
+            about Canadian product recalls and safety alerts. Working as part of a team, I implemented React Native components
+            that displayed dynamic recall information retrieved from a PostgreSQL database. The application provides users with
+            a clean and accessible interface for browsing important safety information and demonstrates my experience building
+            data-driven mobile applications.
+        </p>
+    </section>
 
+    <h1 id="generous_rounds_title">Generous Rounds</h1>
 
-        <h1 id="workout_tracker_title">Workout Tracker</h1>
+    <section class="generous_rounds">
+        <h4><em>JavaScript, MongoDB, OpenAI API, Flask, Python, HTML/CSS</em></h4>
+        <p>
+            Created during StormHacks 2024, Generous Rounds is a charitable giving platform that rounds purchases up to the
+            nearest dollar and donates the difference to a charity selected by the user. I contributed to integrating the frontend
+            with MongoDB for data storage and retrieval while also connecting OpenAI APIs to recommend charities based on user prompts.
+            This project strengthened my experience working with databases, APIs, and full-stack web development.
+        </p>
+    </section>
 
-        <section class="workout_tracker" >
-            <h4><em>Java, Java Swing, JUnit, JSON</em></h4>
-            <a href="https://github.com/Andrewang561/Workout-Tracker">GitHub Link</a>
-            <p>I developed a workout tracker in Java allowing users to input their workouts and tracks their progress. I have been consistently going to the gym for years and I wanted
-                to create an application that could benefit those who want to keep track of their fitness. Some features include keeping track of a users workout, finding progress made  
-                in terms of repetitions and weight for a specific exercise, and deleting a workout. JUnit was implemented to confirm all back end functions worked as expected and 100%
-                code coverage was reached. To save a user's workout history and allow their data to be saved, I imported JSON to achieve these features by convering the entries into JSON 
-                objects and writing it to a file. To load a user's workout history, JSON reads the file back when the application runs again. A UI was created by using Swing, featuring
-                interactive elements that are clear and concise for users. The UI allows users to view all of their entries and a taskbar with all of the features previously mentioned.
-            </p>
-        </section>
+    <h1 id="squid_games_title">Squid Games Database</h1>
 
-        <h1 id="blackjack_title">Blackjack</h1>
+    <section class="squid_games">
+        <h4><em>JavaScript, SQL, HTML, CSS</em></h4>
+        <p>
+            Collaborated with a team to design and implement a database system inspired by Squid Game, modelling relationships
+            between players, games, guards, and other entities. I developed dynamic SQL query generation based on user input,
+            enabling filtering, aggregation, and data retrieval through a web interface. The project also incorporated asynchronous
+            fetch requests to communicate with an Oracle database and support CRUD operations.
+        </p>
+    </section>
 
-        <section class="blackjack">
-            <h4><em>Python, JSON</em></h4>
-            <a href="https://github.com/Andrewang561/Black-Jack">GitHub Link</a>
-            <p>Growing up, card games were always a great way to pass the time as entertainment services like Netflix and TikTok did not yet exist. It was always fun to gather friends
-                and family to play a game of big two or a personal favourite of mine: fighting the landlord. I decided to make a program of an all time classic card game, blackjack, while
-                simultaneously practicing my Python skills. The game follows standard rules regarding play and payout and there is even a dealer AI capable of making decisions based on its
-                own hand. I added an additional feature of placing bets using virtual currency and used JSON to ensure user data would be saved throughout multiple sessions. 
-            </p>
-        </section>
+    <h1 id="heart_disease_title">Heart Disease Classifier</h1>
 
-        <h1 id="heart_disease_title">Heart Disease Classifier</h1>
-
-        <section class="heart_disease_classifier">
-            <h4><em>R, Tidyverse, Tidymodels, Jupyter Notebook</em></h4>
-            <a href="https://github.com/Andrewang561/Heart-Disease-Classifier">GitHub Link</a>
-            <p>This project serves as a demonstration in my skills in both R and data science. Using R and a database containing information related to heart disease, I built
-                a classification model that is capable of diagnosing patients with heart disease based on their resting blood pressure and cholesterol based on the k-nearest neighbour
-                algorithm from tidyverse. Data science techniques were applied throughout the project to strengthen the accuracy and reliability of the model such as cross-validation to ensure the most
-                optimal k value was chosen or data wrangling to ensure the raw data was kept tidy to avoid any errors when proccessing it in R. Visualizations where appropriate and informative
-                in the forms of line and cluster plots were created thanks to tidymodels. 
-            </p>
-        </section>
-    </body>
+    <section class="heart_disease_classifier">
+        <h4><em>R, Tidyverse, Tidymodels, Jupyter Notebook</em></h4>
+        <p>
+            Developed a machine learning classification model capable of predicting heart disease using patient cholesterol and
+            blood pressure measurements. The project utilized data wrangling, cross-validation, variable selection, and
+            standardization techniques to improve model performance. A k-nearest neighbours algorithm was trained and evaluated
+            using the Tidymodels ecosystem, providing hands-on experience with practical data science workflows.
+        </p>
+    </section>
+</body>
 </html>
