@@ -1,356 +1,292 @@
-.hobby {
-    font-family: 'DM Serif', serif;
-    background-color: rgb(255, 247, 255);
-    color: rgb(0, 0, 0);
+:root {
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --secondary: #64748b;
+    --border: #e2e8f0;
+    --shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
-
-
-#travel_title {
-    margin-top: 58px;
-    margin-bottom: 10px;
-    padding-top: 200px;
-    padding-bottom: 300px;
-    background-image: url("./Images/ShangHaiPhoto.jpg");
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
+    
+* {
+    box-sizing: border-box;
 }
-
-.travel {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 0;
-    font-size: 25px;
-}
-
-#video_game_title {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    background-image: url("./Images/hollow_knight.jpg");
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
-}
-
-.gaming {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 0;
-    font-size: 25px;
-}
-
-#game_clip {
-    margin-top: 40px;
-}
-
-#fitness_title {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    background-image: url("./Images/fitness.jpg");
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
-}
-
-.fitness {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 25px;
-}
-
-#workout_tracker_title {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    background-image: url("./Images/equipment.jpg");
-    background-position: bottom;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
-}
-
-.workout_tracker {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 25px;
-}
-
-#blackjack_title {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 150px;
-    padding-bottom: 350px;
-    background-image: url("./Images/blackjack.webp");
-    background-position: top;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
-}
-
-.blackjack {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 25px;
-}
-
-#heart_disease_title {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-image: url("./Images/heart.jpg");
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 200px;
-}
-
-.heart_disease_classifier {
-    padding-left: 15px;
-    padding-right: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid, rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 25px;
-}
-
-section a {
-    color: rgb(0, 160, 155);
-}
-
-#filler {
-    background-image: url("./Images/scenery.jpg");
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    background-position: center;
-    background-size: cover;
-    color: rgb(225, 225, 225);
-    font-size: 200px;
-}
-
-#intro {
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: rgb(225, 225, 225);
-    background-color: rgb(0, 0, 0);
-}
-
-.introduction {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 60px;
-    font-size: 25px;
-}
-
-#education_title {
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: rgb(225, 225, 225);
-    background-color: rgb(0, 0, 0);
-}
-
-.education {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 60px;
-    font-size: 25px;
-}
-
-#work_title {
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: rgb(225, 225, 225);
-    background-color: rgb(0, 0, 0);
-}
-
-.work_experience {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 60px;
-    font-size: 25px;
-    margin-bottom: 40px;
-}
-  
-body {
+    
+    body {
     margin: 0;
-    padding: 0;
-    background-color: rgb(255, 247, 255);
+    background: var(--background);
+    color: var(--text);
+    font-family: Inter, Arial, sans-serif;
+    line-height: 1.7;
     text-align: center;
-    color: rgb(0,0,0);
-}
-
-section ul a {
-    color: rgb(60, 136, 255);
-}
-
-.header {
-    width: 100%;
-    height: 58px;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    margin: 0;
-}
-
-nav a {
-    margin-right: 300px;
-    font-size: 35px;
-    font-family: 'Baskervville SC', serif;
-    color: rgb(225, 225, 225);
-    text-decoration: none;
-    line-height: 1.5;
-    padding: 2px 3px 6px;
-}
-
-nav a:hover {
-    background-color: rgb(60, 60, 60);
-}
-
-nav a:last-child {
-    margin-right: 0;
-}
-
-.review_section {
-    width: 47%;
-    margin: 0 auto;
-    padding-top: 0.02px;
-    padding-bottom: 1px;
-    font-size: 25px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(225, 225, 225);
-    margin-bottom: 50px;
-}
-
-.review_title {
-    padding-bottom: 0px;
-    margin-bottom: -20px;
-}
-
-#rating_label {
-    font-size: 50px;
-    margin-bottom: 100px;
-}
-
-#feedback_label {
-    font-size: 50px;
-}
-
-#rating {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#feedback {
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-button {
-    margin-top: 50px;
-    width: 200px;
-    height: 60px;
-    margin-bottom: 60px;
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-
+    }
+    
+    /* ========================
+    Navigation
+    ======================== */
+    
     .header {
-        height: 43px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+    height: auto;
     }
-
-    #travel_title {
-        margin-top: 40px;
+    
+    nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
     }
-
-    #workout__tracker_title {
-        margin-top: 40px;
-    }
-
-    #filler {
-        margin-top: 40px;
-    }
-
+    
     nav a {
-        font-size: 25px;
-        margin-right: 0px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.2s;
     }
-}
-
-@media only screen and (max-width: 1100px) {
+    
     nav a {
-        margin-right: 50px;
+    color: var(--primary);
     }
-}
+    
+    /* ========================
+    Hero Section
+    ======================== */
+    
+    #filler,
+    #travel_title,
+    #video_game_title,
+    #fitness_title,
+    #workout_tracker_title,
+    #blackjack_title,
+    #heart_disease_title {
+    
+    background-image: none !important;
+    
+    margin: 0;
+    padding: 120px 20px 60px;
+    
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 700;
+    
+    color: var(--text);
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f8fafc 100%
+    );
+    
+    border-bottom: 1px solid var(--border);
+    
+    }
+    
+    /* ========================
+    Section Headings
+    ======================== */
+    
+    #intro,
+    #education_title,
+    #work_title {
+    
+    width: fit-content;
+    
+    margin: 4rem auto 2rem;
+    
+    background: none;
+    color: var(--text);
+    
+    padding: 0;
+    
+    position: relative;
+    
+    font-size: 2rem;
+    
+    }
+    
+    #intro::after,
+    #education_title::after,
+    #work_title::after {
+    
+    content: "";
+    
+    display: block;
+    
+    width: 70%;
+    
+    height: 4px;
+    
+    margin: 0.5rem auto 0;
+    
+    background: var(--primary);
+    
+    border-radius: 999px;
+    
+    }
+    
+    /* ========================
+    Cards
+    ======================== */
+    
+    .introduction,
+    .education,
+    .work_experience,
+    .travel,
+    .gaming,
+    .fitness,
+    .workout_tracker,
+    .blackjack,
+    .heart_disease_classifier,
+    .review_section,
+    section {
+    
+    width: min(900px, 92%);
+    
+    margin: 2rem auto;
+    
+    padding: 2rem;
+    
+    background: var(--surface);
+    
+    border: 1px solid var(--border);
+    
+    border-radius: 20px;
+    
+    box-shadow: var(--shadow);
+    
+    text-align: left;
+    
+    color: var(--text);
+    
+    font-size: 1.1rem;
+    
+    }
+    
+    /* ========================
+    Links
+    ======================== */
+    
+    section a,
+    section ul a {
+    
+    color: var(--primary);
+    
+    text-decoration: none;
+    
+    font-weight: 600;
+    
+    }
+    
+    section a,
+    section ul a {
+    text-decoration: underline;
+    }
+    
+    /* ========================
+    Forms
+    ======================== */
+    
+    #rating,
+    #feedback {
+    
+    width: 100%;
+    
+    max-width: 500px;
+    
+    padding: 0.75rem;
+    
+    border: 1px solid var(--border);
+    
+    border-radius: 10px;
+    
+    font-size: 1rem;
+    
+    }
+    
+    #feedback {
+    min-height: 120px;
+    }
+    
+    button {
+    
+    background: var(--primary);
+    
+    color: white;
+    
+    border: none;
+    
+    border-radius: 12px;
+    
+    padding: 0.9rem 1.5rem;
+    
+    font-size: 1rem;
+    
+    cursor: pointer;
+    
+    transition: 0.2s;
+    
+    }
+    
+    button {
+    
+    background: var(--primary-hover);
+    
+    transform: translateY(-2px);
+    
+    }
+    
+    /* ========================
+    Utility
+    ======================== */
+    
+    .hobby {
+    background: var(--background);
+    color: var(--text);
+    }
+    
+    .review_title {
+    margin-bottom: 1rem;
+    }
+    
+    #rating_label,
+    #feedback_label {
+    font-size: 2rem;
+    }
+    
+    /* ========================
+    Mobile
+    ======================== */
+    
+    @media (max-width: 768px) {
+    
+    nav {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    nav a {
+        font-size: 1rem;
+    }
+    
+    .introduction,
+    .education,
+    .work_experience,
+    .travel,
+    .gaming,
+    .fitness,
+    .workout_tracker,
+    .blackjack,
+    .heart_disease_classifier,
+    .review_section,
+    section {
+        padding: 1.5rem;
+    }
+    
+    }
 
 
